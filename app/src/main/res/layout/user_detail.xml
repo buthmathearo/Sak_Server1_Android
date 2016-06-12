@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"/>
+        <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/text_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Login"
+                android:layout_gravity="top|center_horizontal"/>
+        <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/text_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Type"
+                android:layout_gravity="bottom|center_horizontal"/>
+
+    </FrameLayout>
+</layout>
